@@ -100,20 +100,8 @@ const NAVIGATION_CONFIG: NavigationConfig = {
             return <UserIcon className={className} />;
           },
         },
-        {
-          label: 'common:organizationSettingsTabLabel',
-          path: configuration.paths.settings.organization,
-          Icon: ({ className }: { className: string }) => {
-            return <UserGroupIcon className={className} />;
-          },
-        },
-        {
-          label: 'common:subscriptionSettingsTabLabel',
-          path: configuration.paths.settings.subscription,
-          Icon: ({ className }: { className: string }) => {
-            return <CreditCardIcon className={className} />;
-          },
-        },
+     
+       
       ],
     },
   ],
