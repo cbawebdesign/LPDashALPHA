@@ -17,13 +17,21 @@ export default function DashboardDemo() {
 
 
   return (
-    <div className="flex flex-col items-center min-h-screen  p-6 space-y-6">
-      <LogoImage style={{ width: '150px', height: '100px' }} />
-      <h1 className="text-2xl font-bold mb-4">Digital Alpha Limited Partner Dashboard</h1>
-      <img src="https://firebasestorage.googleapis.com/v0/b/test7-8a527.appspot.com/o/loaderr.gif?alt=media&token=63e0196b-c561-4602-8d81-3e27d8f2f389" alt="Loading..." className="mb-4" />
-      <p className="text-center max-w-prose">
-        This is a paragraph section. You can put any content you want here.
-      </p>
-    </div>
-  );
+      <div className="flex flex-col items-center min-h-screen p-6 space-y-6">
+        <LogoImage style={{ width: '150px', height: '100px' }} />
+        <h1 className="text-2xl font-bold mb-4">Welcome to your Digital Alpha Limited Partner Dashboard</h1>
+        <img src="https://firebasestorage.googleapis.com/v0/b/test7-8a527.appspot.com/o/loader3.gif?alt=media&token=b095ed40-ac2d-4368-8bd3-e6f5bce9aa3e" alt="Loading..." className="mb-4" />
+        <p className="text-center max-w-prose text-blue-700 italic">
+          You can find the following fund documents here: 
+          <ul className="list-disc list-inside">
+            <li>Capital Account Statements</li>
+            <li>Distribution Letters</li>
+            <li>Capital Calls</li>
+            <li>K-1 Statements</li>
+            <li>Financials</li>
+            <li>News Communications</li>
+          </ul>
+        </p>
+      </div>
+    );
 }

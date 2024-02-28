@@ -52,13 +52,9 @@ export const SignIn = () => {
           <title key={'title'}>{t(`auth:signIn`)}</title>
         </Head>
 
-        <OAuthProviders onSignIn={onSignIn} />
 
         <If condition={providers.emailPassword}>
-          <span className={'text-xs text-gray-400'}>
-            <Trans i18nKey={'auth:orContinueWithEmail'} />
-          </span>
-
+        
           <EmailPasswordSignInContainer
             shouldVerifyEmail={shouldVerifyEmail}
             onSignIn={onSignIn}
