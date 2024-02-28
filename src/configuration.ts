@@ -70,7 +70,7 @@ const configuration = {
     signUp: '/auth/sign-up',
     emailLinkSignIn: '/auth/link',
     onboarding: `/onboarding`,
-    appHome: '/dashboard',
+    appHome: '/settings/profile/authentication',
     settings: {
       profile: '/settings/profile',
       organization: '/settings/organization',
