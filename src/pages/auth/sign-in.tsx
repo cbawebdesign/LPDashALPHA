@@ -70,18 +70,7 @@ export const SignIn = () => {
         </If>
 
         <div className={'flex justify-center text-xs'}>
-          <p className={'flex space-x-1'}>
-            <span>
-              <Trans i18nKey={'auth:doNotHaveAccountYet'} />
-            </span>
-
-            <Link
-              className={'text-primary-800 hover:underline dark:text-primary'}
-              href={signUpPath}
-            >
-              <Trans i18nKey={'auth:signUp'} />
-            </Link>
-          </p>
+         
         </div>
       </AuthPageLayout>
     </>
