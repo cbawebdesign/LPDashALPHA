@@ -44,10 +44,7 @@ const SiteNavigation = () => {
             link={links.SignIn}
           />
 
-          <NavigationMenuItem link={links.Blog} />
-          <NavigationMenuItem link={links.Docs} />
-          <NavigationMenuItem link={links.Pricing} />
-          <NavigationMenuItem link={links.FAQ} />
+         
         </NavigationMenu>
       </div>
 

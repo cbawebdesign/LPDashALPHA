@@ -94,7 +94,6 @@ export default function Financials() {
     fetchAndDecryptData();
   }, [isSdkInitialized, currentSubCategory, currentCategory, newData]);
   const mainCategories = [
-    'Financials 2023-Q3',
     'Financials Q1-2018',
     'Financials Q1-2019',
     'Financials Q1-2020',
@@ -107,6 +106,7 @@ export default function Financials() {
     'Financials Q2-2021',
     'Financials Q2-2022',
     'Financials Q2-2023',
+    'Financials Q3-2023',
     'Financials Q3-2017',
     'Financials Q3-2018',
     'Financials Q3-2019',
@@ -120,7 +120,8 @@ export default function Financials() {
     'Financials Q4-2021',
     'Financials Q4-2022',
     'Financials Quarterly Report Q2'
-  ];
+];
+
   
   const subCategories = {
     'Financials 2023-Q3': 'Financials 2023-Q3',
@@ -136,6 +137,8 @@ export default function Financials() {
     'Financials Q2-2021': 'Financials Q2-2021',
     'Financials Q2-2022': 'Financials Q2-2022',
     'Financials Q2-2023': 'Financials Q2-2023',
+    'Financials Q3-2023': 'Financials 2023-Q3',
+
     'Financials Q3-2017': 'Financials Q3-2017',
     'Financials Q3-2018': 'Financials Q3-2018',
     'Financials Q3-2019': 'Financials Q3-2019',
@@ -252,8 +255,7 @@ export default function Financials() {
   return filteredData.map((data, index) => (
     <div key={index} style={boxStyle}>
       <h2 style={{ color: '#0000FF' }}>SubCategory: {data.subCategory}</h2>
-      <p>Decrypted data for ID {data.id}: </p>
-      <p>Decrypted image title: {data.image}</p>
+      <p>Document Title{data.image}</p>
       <a href={data.url} download target="_blank">
         <button style={buttonStyle}>Download</button>
       </a>

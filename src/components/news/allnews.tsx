@@ -208,8 +208,7 @@ export default function AllNews() {
   return filteredData.map((data, index) => (
     <div key={index} style={boxStyle}>
       <h2 style={{ color: '#0000FF' }}>SubCategory: {data.subCategory}</h2>
-      <p>Decrypted data for ID {data.id}: </p>
-      <p>Decrypted image title: {data.image}</p>
+      <p>Document Title: {data.image}</p>
       <a href={data.url} download target="_blank">
         <button style={buttonStyle}>Download</button>
       </a>

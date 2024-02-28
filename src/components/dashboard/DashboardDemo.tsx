@@ -4,7 +4,6 @@ import { useMemo } from 'react';
 import Tile from '~/core/ui/Tile';
 import LogoImage from '~/core/ui/Logo/LogoImage';
 import loadingGif from './newmaker/new/public/assets/images/loaderr.gif'; // Import your gif
-
 import {
   Table,
   TableBody,
@@ -18,10 +17,10 @@ export default function DashboardDemo() {
 
 
   return (
-    <div className="flex flex-col items-center min-h-screen bg-white p-6 space-y-6">
+    <div className="flex flex-col items-center min-h-screen  p-6 space-y-6">
       <LogoImage style={{ width: '150px', height: '100px' }} />
       <h1 className="text-2xl font-bold mb-4">Digital Alpha Limited Partner Dashboard</h1>
-      <img src="./newmaker/new/public/assets/images/loaderr.gif" alt="Animated content" className="mb-4" />
+      <img src="https://firebasestorage.googleapis.com/v0/b/test7-8a527.appspot.com/o/loaderr.gif?alt=media&token=63e0196b-c561-4602-8d81-3e27d8f2f389" alt="Loading..." className="mb-4" />
       <p className="text-center max-w-prose">
         This is a paragraph section. You can put any content you want here.
       </p>
