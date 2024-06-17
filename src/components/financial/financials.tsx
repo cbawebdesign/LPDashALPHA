@@ -120,6 +120,7 @@ export default function Financials() {
     'Financials Q3-2023',
     'Financials 2023-Q3',
     'Financials Q4-2023',
+    'Financials Q1-2024'
   ];
 
   
@@ -152,6 +153,7 @@ const subCategories = {
   'Financials Q3-2023': 'Financials Q3-2023',
   'Financials 2023-Q3': 'Financials 2023-Q3',
   'Financials Q4-2023': 'Financials-Q42023',
+  'Financials Q1-2024': 'Financials-Q12024'
 };
 
   const buttonStyle = {
