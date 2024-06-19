@@ -103,7 +103,6 @@ export default function CapitalAccounts() {
     'Capital Account 2023 Q4',
     'Capital Account 2024 Q1',
     'Capital Account 2024 Q2',
-    'Capital Account 2023 Q1',
    
   ];
   
