@@ -105,8 +105,8 @@ export default function KOnes() {
     'K1-2020': 'K1-2020',
     'K1-2021': 'K1-2021',
     'K1-2022': 'K1-2022',
-    'K1-2023': 'K1-2024',
-    'K1-2024': 'K1-2025',
+    'K1-2023': 'K1-2023',
+    'K1-2024': 'K1-2024',
   };
   const buttonStyle = {
     backgroundColor: '#0000FF', /* Dark Blue */
