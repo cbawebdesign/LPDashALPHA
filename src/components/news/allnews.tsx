@@ -97,14 +97,16 @@ export default function AllNews() {
     'Newsletter-Q1',
     'Newsletter-Q2',
     'Newsletter-Q3',
-    'Newsletter-Q4'
+    'Newsletter-Q4',
+    'Newsletter Q3-2024'
   ];
   
   const subCategories = {
     'Newsletter-Q1': 'Newsletter-Q1',
     'Newsletter-Q2': 'Newsletter-Q2',
     'Newsletter-Q3': 'Newsletter-Q3',
-    'Newsletter-Q4': 'Newsletter-Q4'
+    'Newsletter-Q4': 'Newsletter-Q4',
+    'Newsletter Q3-2024': 'Newsletter Q3-2024',
   };
   const buttonStyle = {
     backgroundColor: '#0000FF', /* Dark Blue */
