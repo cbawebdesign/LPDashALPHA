@@ -117,6 +117,8 @@ export default function CapitalAccounts() {
     'Capital Account 2023 Q4': 'CAS23Q4',
     'Capital Account 2024 Q1': 'CAS24Q1',
     'Capital Account 2024 Q2': 'CAS24Q2',
+    'Capital Account 2024 Q3': 'CAS24Q3',
+
   
   };
   const buttonStyle = {
