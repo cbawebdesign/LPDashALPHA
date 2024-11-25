@@ -125,7 +125,7 @@ export default function Financials() {
     'Financials-Q22024',
     'Quarterly Report Q1-2024',
     'Quarterly Report Q2-2024',
-    'Financials Q3-2024',
+    'Financials-Q32024',
 
   ];
 
