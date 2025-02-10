@@ -99,6 +99,8 @@ export default function DistributionsAll() {
     'Distributions 2022',
     'Distributions 2023',
     'Distributions 2024',
+    'Distributions 2025',
+
   ];
   
   const subCategories = {
@@ -107,6 +109,8 @@ export default function DistributionsAll() {
     'Distributions 2022': 'Distributions2022',
     'Distributions 2023': 'Distributions2023',
     'Distributions 2024': 'Distributions2024',
+    'Distributions 2025': 'Distributions2025',
+
   };
   const buttonStyle = {
     backgroundColor: '#0000FF', /* Dark Blue */
