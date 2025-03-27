@@ -126,7 +126,10 @@ export default function Financials() {
     'Quarterly Report Q1-2024',
     'Quarterly Report Q2-2024',
     'Quarterly Report Q3-2024',
+    'Quarterly Report Q4-2024',
     'Financials-Q32024',
+    'Financials-Q42024',
+
 
   ];
 
@@ -165,7 +168,11 @@ const subCategories = {
   'Quarterly Report Q1-2024': 'Quarterly Report Q1-2024',
   'Quarterly Report Q2-2024': 'Quarterly Report Q2-2024',
   'Quarterly Report Q3-2024': 'Quarterly Report Q3-2024',
+  'Quarterly Report Q4-2024': 'Quarterly Report Q4-2024',
+
   'Financials-Q32024': 'Financials-Q32024',
+  'Financials-Q42024': 'Financials-Q42024',
+
 
   
 };
