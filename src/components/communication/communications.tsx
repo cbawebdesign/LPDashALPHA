@@ -93,7 +93,7 @@ export default function Communications() {
     };
     fetchAndDecryptData();
   }, [isSdkInitialized, currentSubCategory, currentCategory, newData]);
-    const mainCategories = ['Communications'];
+    const mainCategories = ['Communications', '2024TaxEstimates'];
   const subCategories = {
   
     'Communications': 'Communications',
