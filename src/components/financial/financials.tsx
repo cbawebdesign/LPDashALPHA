@@ -129,6 +129,7 @@ export default function Financials() {
     'Quarterly Report Q4-2024',
     'Financials-Q32024',
     'Financials-Q42024',
+    'Financials-Q12025',
 
 
   ];
@@ -172,6 +173,8 @@ const subCategories = {
 
   'Financials-Q32024': 'Financials-Q32024',
   'Financials-Q42024': 'Financials-Q42024',
+  'Financials-Q12025': 'Financials-Q12025',
+
 
 
   
