@@ -93,10 +93,11 @@ export default function Communications() {
     };
     fetchAndDecryptData();
   }, [isSdkInitialized, currentSubCategory, currentCategory, newData]);
-    const mainCategories = ['Communications'];
+    const mainCategories = ['Communications', '2024TaxEstimates'];
   const subCategories = {
   
     'Communications': 'Communications',
+    '2024TaxEstimates': '2024TaxEstimates'
   };
   const buttonStyle = {
     backgroundColor: '#0000FF', /* Dark Blue */

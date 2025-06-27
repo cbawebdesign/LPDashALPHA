@@ -104,6 +104,10 @@ export default function CapitalAccounts() {
     'Capital Account 2024 Q1',
     'Capital Account 2024 Q2',
     'Capital Account 2024 Q3',
+    'Capital Account 2024 Q4',
+'Final Q4 Capital Account Statement',
+'Capital Account 2025 Q1'
+
 
    
   ];
@@ -120,6 +124,12 @@ export default function CapitalAccounts() {
     'Capital Account 2024 Q1': 'CAS24Q1',
     'Capital Account 2024 Q2': 'CAS24Q2',
     'Capital Account 2024 Q3': 'CAS24Q3',
+    'Capital Account 2024 Q4': 'CAS24Q4',
+    'Final Q4 Capital Account Statement': 'Final Q4 CAS',
+    'Capital Account 2025 Q1': 'CAS25Q1',
+
+
+
 
   
   };
