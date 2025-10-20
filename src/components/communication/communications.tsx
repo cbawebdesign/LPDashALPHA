@@ -93,11 +93,13 @@ export default function Communications() {
     };
     fetchAndDecryptData();
   }, [isSdkInitialized, currentSubCategory, currentCategory, newData]);
-    const mainCategories = ['Communications', '2024TaxEstimates'];
+  const mainCategories = ['Communications', '2024TaxEstimates', '2025-AGM-Slide-Deck'];
   const subCategories = {
   
     'Communications': 'Communications',
-    '2024TaxEstimates': '2024TaxEstimates'
+    '2024TaxEstimates': '2024TaxEstimates',
+    '2025-AGM-Slide-Deck': '2025-AGM-Slide-Deck'
+  };
   };
   const buttonStyle = {
     backgroundColor: '#0000FF', /* Dark Blue */
