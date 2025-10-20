@@ -100,7 +100,6 @@ export default function Communications() {
     '2024TaxEstimates': '2024TaxEstimates',
     '2025-AGM-Slide-Deck': '2025-AGM-Slide-Deck'
   };
-  };
   const buttonStyle = {
     backgroundColor: '#0000FF', /* Dark Blue */
     border: 'none',
