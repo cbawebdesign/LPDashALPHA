@@ -131,8 +131,11 @@ export default function Financials() {
     'Financials-Q42024',
     'Financials-Q12025',
     'Financials-Q22025',
+    'Financials-Q32025',
     'Quarterly Report Q1-2025',
-    'Quarterly Report Q2-2025'
+    'Quarterly Report Q2-2025',
+    'Quarterly Report Q3-2025'
+
 
   ];
 
@@ -176,11 +179,14 @@ const subCategories = {
   'Quarterly Report Q4-2024': 'Quarterly Report Q4-2024',
   'Quarterly Report Q1-2025': 'Quarterly Report Q1-2025',
   'Quarterly Report Q2-2025': 'Quarterly Report Q2-2025',
+  'Quarterly Report Q3-2025': 'Quarterly Report Q3-2025',
 
   'Financials-Q32024': 'Financials-Q32024',
   'Financials-Q42024': 'Financials-Q42024',
   'Financials-Q12025': 'Financials-Q12025',
   'Financials-Q22025': 'Financials-Q22025',
+  'Financials-Q32025': 'Financials-Q32025',
+
 
 
 
