@@ -109,6 +109,8 @@ export default function CapitalAccounts() {
 'Capital Account 2025 Q1',
 'Capital Account 2025 Q2',
 'Capital Account 2025 Q3',
+'Capital Account 2025 Q4',
+
 
 
 
@@ -133,6 +135,7 @@ export default function CapitalAccounts() {
     'Capital Account 2025 Q1': 'CAS25Q1',
     'Capital Account 2025 Q2': 'CAS25Q2',
     'Capital Account 2025 Q3': 'CAS25Q3',
+    'Capital Account 2025 Q4': 'CAS25Q4',
 
 
 
